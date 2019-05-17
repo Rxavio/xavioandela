@@ -1,0 +1,66 @@
+
+    .filter{
+        
+        float:left;
+        box-sizing: border-box;	
+        padding: 12px 20px;
+       margin: 8px 0;
+       border-radius: 10px;
+       border: 1px solid rgba(0,0, 0, .2);
+       width: 20%;
+       height: 450px;
+      
+    }
+
+    .filter h4{
+	margin: 0 0 40px;
+	padding: 0;
+	color: #f7497d;
+	box-shadow: none;
+	outline: none;
+	border: none;
+	border-bottom: 2px solid #999;
+	font-size: 13px;
+	text-transform: uppercase;
+}
+
+input[type=text], select{
+    margin-top: 0px;
+    width: 70%;
+    height: 10px;
+	padding: 12px 20px;
+	margin: 0px 0;
+	display:inline-block;
+	border: 1x solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	outline: 1;
+
+}
+.filter button{
+	border-radius: 10px;
+	outline: 1;
+	font-size: 12px;
+	color: gold;
+
+}
+
+
+.filter h5{
+	
+	box-sizing: border-box;
+	outline: 1;
+	
+	color: black;
+	font-size: 11px;
+	border: none;
+	
+}
+
+
+
+
+
+
+
+

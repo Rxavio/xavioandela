@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <title>Auto Mart</title>
+		 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="shortcut icon" href="logoo.jpg" type="image/jpg"/>
+     <link rel="stylesheet" href="style.css" />
+		 <link rel="stylesheet" href="style2.css" />
+         <link rel="stylesheet" href="style3.css" />
+         <link rel="stylesheet" href="style4.css" />
+     
+</head>
+<body>
+     
+  <div class="header">
+    <a href="index.html" class="logo"><img src="logo.png" width="300px" height="100px"></a>
+    <div class="header-right">
+      <a class="active" href="index.html">HOME</a>
+      <a href="about.html">ABOUT</a>
+      <a href="post.html">POST CAR</a>
+			<a href="member.html">MEMBER</a>
+      <button onclick="myFunction()">LOGOUT</button>
+    </div>
+    </div>
+					
+          
+
+          <div class="add-car">
+              <h3>ADD YOUR CAR DESCRIPTIONS</h3>
+          
+              <form>
+              <div>
+                <h4>CAR PRICE</h4>
+                <input type="text">
+                
+              </div>
+  
+                <div>
+                    <h4>CAR MAKER</h4>
+                    <select name="car-maker">
+                    <option value=""></option>
+                    <option value="ford">FORD</option>
+                    <option value="audi">AUDI</option>
+                    <option value="Ranger rover">Ranger rover</option>
+                    <option value="Lincoln">Lincoln</option>
+                
+                    <option value="bmw">BMW</option>
+                      </select>
+                </div>
+
+                <div>
+                    <h4>CAR MODEL</h4>
+                    
+                    <select name="car-model">
+                    <option value=""></option>
+                    <option value="new">focus</option>
+                    <option value="used">sierra</option>
+                    <option value="new">80</option>
+                    <option value="used">A4</option>
+                    <option value="used">A5</option>
+                      </select>
+                </div>
+
+                <div>
+                    <h4>CAR BRAND</h4>
+                    <select name="brand">
+                    <option value=""></option>
+                    <option value="mini">MINI</option>
+                    <option value="jeep">Jeep</option>
+                    <option value="lada">Lada</option>
+                    <option value="spyker">spyker</option>
+                    <option value="datsun">Datsun</option>
+                      </select>
+                </div>
+                   
+
+                        <div>
+                          <h4>FUEL TYPE</h4>
+                          <select name="fuel-type">
+                          <option value=""></option>
+                          <option value="petrol">Petrol</option>
+                          <option value="diesel">Diesel</option>
+                             </select>
+                        </div>
+
+
+                        <div>
+                            <h4>TRANSMISSION</h4>
+                            <select name="car-transmission">
+                            <option value=""></option>
+                            <option value="manual">Manual</option>
+                            <option value="automatic">Automatic</option>
+                               </select>
+                          </div>
+
+                          <div>
+                              <h4>DRIVE TYPE</h4>
+                              <select name="fuel-type">
+                              <option value=""></option>
+                              <option value="left">LEFT</option>
+                              <option value="right">RIGHT</option>
+                                 </select>
+                                                      
+                            </div>
+ 
+                    <div>
+                    <h4>RELEASED DATE</h4>
+                    <input type="date">
+                    </div>
+                   
+                  <div>  
+                     <h4> UPLOAD CAR PHOTO</h4>
+                <input type='file' onchange="readURL(this);" /> 
+                <img id="ShowImage" src="#" >
+                
+
+               
+                 </div>
+
+                <div>
+                  <input type="submit" name="" value="POST CAR">
+                  
+                </div>
+
+              </form>
+              </div>
+
+
+
+
+
+              
+          <div class="postcar">
+
+              <table class="post-list" id="postlist">
+                  <thead>
+                      <tr>
+                          <th>PRICE</th>
+                          <th>TYPE</th>
+                          <th>CONDITION</th>
+                          <th>BRAND</th>
+
+                          <th>MODEL</th>
+                          <th>FUEL TYPE</th>
+                          <th>TRANSMISSION</th>
+                          <th>RELEASED YEAR</th>
+                          <th>PHOTO</th>
+                         
+                         
+                      </tr>
+                  </thead>
+                  <tbody>
+
+                  </tbody>
+              </table>
+              
+              
+
+          </div>
+          
+             
+              <table class="footer">
+														
+                </table>
+
+
+                
+<div class="containerfooter"> 
+
+
+    <div class="containerfooter1">
+
+      <table class="infoleft">
+        
+          <tr>
+              <tr>
+                  <td><a href="#"><img src="facebook.png" width="50px" height="50px"></a></td>
+                  <td><a href="#"><img src="twitter.png" width="50px" height="50px"></a></td>
+                  <td><a href="#"><img src="linkedin.png" width="50px" height="50px"></a></td>
+                  <td><a href="#"><img src="instagram.png" width="50px" height="50px"></a></td>
+                  <td><a href="#"><img src="google-plus.png" width="50px" height="50px"></a></td>
+                  <td><a href="#"><img src="skype.png" width="50px" height="50px"></td>
+                 </tr></table>
+
+
+
+    </div>
+
+
+
+
+    <div class="containerfooter2">
+
+      <table class="info">
+          <tr>
+          <td>Phone:</td>
+          <td>(+250) 78877665544</td>
+        </tr>
+
+        <tr>
+          <td>Toll free:</td>
+          <td>369900</td>
+          </tr>
+
+
+          <tr>
+            <td>Fax:</td>
+            <td>(+250)551133</td>
+          </tr>
+
+          <tr>
+            <td>Email:</td>
+            <td>automart@automart.com</td>
+            </tr>
+            <tr>
+              <td>Web:</td>
+              <td>www.automart.com</td>
+            </tr>
+      </table>
+      </div>
+
+
+
+
+    <div class="containerfooter3">
+      <table class="inforight">
+        <tr>
+          <td class="connect"><h4><u>CONNECT WITH US</u></h4></td>
+          
+          </tr>
+
+          <tr>
+          <form>
+            <td><input type="email" placeholder="subscribe for new updates"></td>
+            <td><button>SUBSCRIBE</button></td>
+          </form>
+            
+          </tr></table>
+
+    </div>
+     
+   </div>
+   <table class="footer">
+      <tr><th><h3>Copyright &copy;2018-2019 -ALL RIGHT RESERVED</h3></th></tr>
+      </table>
+
+              <script src="script.js"></script>
+  
+
+</body>
+</html>
